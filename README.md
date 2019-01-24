@@ -27,3 +27,4 @@
 12.	 @Test Mark the method as the test method 
 13.	@AfterClass we use method tearDown to close a browser after test running completed and method “close” to quit  from webDriver.
 14.	 Select in menu tab “Run” – “Run ‘Google Test’” and wait for result of test running. 
+https://www.screencast.com/t/B0kcVAtwkj

@@ -7,8 +7,8 @@
 6.	Download last version of chromedriver.exe and extract it to project root folder
 7.	Open IDEA, open pom.xml file. Click on it and select “Run As” – “Maven Build”.  Add dependences for Selenium and Testng (I have used this library instead of JUnit,  because I studied that for automated tests I should use Testng)
 8.	Add next directories: 
-8.1	IdeaProjects\kaa2\src\main\java\com\kaa. Click on Java and Mark directory as Sources root. In this directories we can add in future some resources, and describe elements locators, methods of elements on page. And in test directory just call necessary methods from specific class. 
-8.2	\IdeaProjects\kaa2\src\test\java\com\kaa\google. Click on Test and Mark directory as Test Sources root.
+- 8.1	IdeaProjects\kaa2\src\main\java\com\kaa. Click on Java and Mark directory as Sources root. In this directories we can add in future some resources, and describe elements locators, methods of elements on page. And in test directory just call necessary methods from specific class. 
+- 8.2	\IdeaProjects\kaa2\src\test\java\com\kaa\google. Click on Test and Mark directory as Test Sources root.
 9.	Create new Java Class “Google Test” in test\java\com\kaa\google
 10.	Add three annotations:  @BeforeClass  @Test @AfterClass
 11.	@BeforeClass 

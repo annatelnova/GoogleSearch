@@ -12,7 +12,7 @@
 9.	Create new Java Class “Google Test” in test\java\com\kaa\google
 10.	Add three annotations:  @BeforeClass  @Test @AfterClass
 11.	@BeforeClass 
-## 11.1	driver initialization – we specify what browser will be used for test 
+    11.1	driver initialization – we specify what browser will be used for test 
 11.2	specify the value of the variable “googleSearch”
 11.3	pass the variable to method “get” – this will allow to navigate to “googleSearch”
 11.4	specify the value of the variable “searchText”

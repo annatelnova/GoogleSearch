@@ -12,18 +12,18 @@
 9.	Create new Java Class “Google Test” in test\java\com\kaa\google
 10.	Add three annotations:  @BeforeClass  @Test @AfterClass
 11.	@BeforeClass 
-    11.1	driver initialization – we specify what browser will be used for test 
-11.2	specify the value of the variable “googleSearch”
-11.3	pass the variable to method “get” – this will allow to navigate to “googleSearch”
-11.4	specify the value of the variable “searchText”
-11.5	variable “searchLocator” initialization  and specify location using its XPath (Open Chrome – F12 DevTools, Select arrow to inspect input – Click on input – press the RMB  is selected code in “Elements” tab – From menu Select “Copy” – Copy XPath
-11.6	search for google input “searchLocator” 
-11.7	Use method “sendKeys” to input “searchText” into searchField
-11.8	Use method “submit” to imitate click on submit button
-11.9	Open Google – search for test – open DevTools – and copy XPath for text that contain “test” word 
-11.10	variable “linkLocator” initialization  and specify location using its XPath
-11.11	search for text description under link in search result that we found in 11.9 
-11.12	using assertTrue method we check that text from 11.11 contain “text” word 
+- 11.1	driver initialization – we specify what browser will be used for test 
+- 11.2	specify the value of the variable “googleSearch”
+- 11.3	pass the variable to method “get” – this will allow to navigate to “googleSearch”
+- 11.4	specify the value of the variable “searchText”
+- 11.5	variable “searchLocator” initialization  and specify location using its XPath (Open Chrome – F12 DevTools, Select arrow to inspect input – Click on input – press the RMB  is selected code in “Elements” tab – From menu Select “Copy” – Copy XPath
+- 11.6	search for google input “searchLocator” 
+- 11.7	Use method “sendKeys” to input “searchText” into searchField
+- 11.8	Use method “submit” to imitate click on submit button
+- 11.9	Open Google – search for test – open DevTools – and copy XPath for text that contain “test” word 
+- 11.10	variable “linkLocator” initialization  and specify location using its XPath
+- 11.11	search for text description under link in search result that we found in 11.9 
+- 11.12	using assertTrue method we check that text from 11.11 contain “text” word 
 12.	 @Test Mark the method as the test method 
 13.	@AfterClass we use method tearDown to close a browser after test running completed and method “close” to quit  from webDriver.
 14.	 Select in menu tab “Run” – “Run ‘Google Test’” and wait for result of test running. 
